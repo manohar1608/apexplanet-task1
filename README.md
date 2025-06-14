@@ -1,2 +1,26 @@
-# apexplanet-task1
-🎬 A stylish movie-themed webpage built using HTML, CSS, and JavaScript. This project showcases movie listings with responsive design and interactive elements. Created as part of my front-end development practice.
+
+# 🎬 Movie Page Web Project
+
+This is a stylish, responsive **movie-themed webpage** created using **HTML, CSS, and JavaScript**. It displays movie posters, details, and includes interactive elements for an engaging user experience.
+
+---
+
+## 🌟 Features
+
+- 📽️ Movie thumbnails with hover effects  
+- 🎨 Clean and modern UI design  
+- 📱 Responsive layout for all screen sizes  
+- 🧠 Organized code structure (HTML, CSS, JS)
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Markup structure  
+- **CSS3** – Styling and animations  
+- **JavaScript** – Dynamic behaviors
+
+---
+
+## 📁 Project Structure
+
