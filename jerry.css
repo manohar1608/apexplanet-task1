@@ -1,0 +1,127 @@
+/* General Body Styling */
+body {
+  background-color: #000; /* Black background */
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+  color: #ffcc00;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.cartoon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+
+.movie-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 16px;
+  width: 230px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+
+.movie-card h3 {
+  color: #ff4db8;
+  margin-bottom: 10px;
+}
+
+.movie-card p {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* Button Style */
+.movie-card button {
+  background-color: #ff4db8;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.movie-container button:hover {
+  background-color: #e60073;
+}
+
+/* Floating Buttons */
+#backToTop, #homeButton {
+  position: fixed;
+  bottom: 20px;
+  font-size: 24px;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+}
+
+#backToTop {
+  right: 70px;
+}
+
+#homeButton {
+  right: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 100px; /* space for bottom button */
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+#alertBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 25px;
+  font-size: 16px;
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  border-radius: 25px; /* Pill-shaped */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+#alertBtn:hover {
+  background-color: #ff3399;
+}
+
